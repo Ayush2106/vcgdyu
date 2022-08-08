@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey form </title>
+    <link rel="stylesheet" href="survey.css">
+</head>
+<body>
+    
+    <div class = "heading"> 
+        <h1 id = "head "> freeCodeCamp Survey Form</h1>
+        <h2 id = "subheading"> Thank you for taking the time to help us improve the platform</h2>
+    </div>
+    
+   <div class="form">
+       <br><br>
+    <div id = "content1">
+        <label>Name:</label><br>
+    <input type="name"  id ="placeholder" name = "name" placeholder="Enter your Name" class="box"> <br><br>
+    <label> Email </label><br>
+    <input type="email" id ="placeholder" name = "email" placeholder="Enter your email id" class = " box" > <br><br>
+    <label> Age (Optional)</label> <br>
+    <input type="age" id ="placeholder" name = "age" placeholder="Enter your Age " class = "box"> <br><br>
+</div>  
+<div  class = "content">
+       <label> Which option best describes your current role?</label><br><br>
+       <select>
+           <option name = "role"> Select your role</option><br><br>
+           <option  value= "stud">Student</option>
+           <option value = "job"> JOB Field</option>
+           <option value = "teacher"> Teaching line</option>
+           <option  value= "bussiness">Bussinessman  </option>
+       </select>
+   </div><br>
+   <div class="select">
+       <label> Would you recommend freeCodeCamp to a friend?</label>
+    <br>
+    <br>
+    <input type = "radio" name = "radio" class = "larger" >Definitely<br>
+    <input type = "radio" name = "nope" class =  "larger"> May be  <br>
+    <input type = "radio" name = "no"  class = "larger" >Not at all <br>
+   </div>
+   <br>
+<div class = "playerlist">
+    <label> What is your favorite feature of freeCodeCamp?</label><br><br>
+    <select>
+        <option name = "role" >Select Your Role</option>
+        <option value = "challenges">Challenges</option>
+        <option value = "projects">Projects</option>
+        <option value = "open source">Open Source</option>
+        <option value = "community">Community</option>
+    </select>
+</div><br><br>
+<div class = "Games">
+    <label> What would you like to improved ?</label><br><br>
+    <input type = "radio" name = "radio" class = "larger" >Front End Project<br>
+    <input type = "radio" name = "nope" class =  "larger"> Back End Project<br>
+    <input type = "radio" name = "no"  class = "larger" >Data Visualisation<br>
+    <input type = "radio" name = "radio" class = "larger" >Challenges<br>
+    <input type = "radio" name = "nope" class =  "larger"> Open Source Community <br>
+    <input type = "radio" name = "no"  class = "larger" > Gitter - Help Rooms<br>
+    <input type = "radio" name = "radio" class = "larger" >Audio<br>
+    <input type = "radio" name = "nope" class =  "larger"> Forums <br>
+    <input type = "radio" name = "no"  class = "larger" > Additional Courses<br>
+</div><br><br>
+<div class = "comments">
+    <label> Add Comments To Your Section </label><br><br>
+    <input type = "text" class = "input" placeholder="Enter Your Text Here" >
+</div><br>
+
+<div class = "submit">
+<button type = "submit" id = "submit" >Submit </button>
+</div>
+<br><br>
+</div>
+</body>
+</html>

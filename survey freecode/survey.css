@@ -1,0 +1,51 @@
+body{
+    background-image: url(https://wallpaperaccess.com/full/1124103.jpg);
+    background-size: cover;
+    /* background-attachment: fixed; */
+}
+.heading{
+    text-align: center;
+    font-style: oblique;
+
+}
+.form{
+    background-color: rgb(0,0,0,0.7);
+margin-top: 50px;
+margin-left: 150px;
+margin-right: 150px;
+margin-bottom: 1px;
+}
+
+#content1{
+    margin-left: 100px;
+    color: aliceblue;
+}
+.content {
+    margin-left: 100px;
+    color: aliceblue;
+}
+.select{
+    margin-left: 100px;
+    color: aliceblue;
+}
+.playerlist{
+    margin-left: 100px;
+    color: aliceblue;
+}
+.Games{
+    margin-left: 100px;
+    color: aliceblue;
+}
+.comments{
+    margin-left: 100px;
+    color: aliceblue;
+}
+.input{
+    min-height: 60px;
+    width: 90%;
+}
+.submit button{
+    width : 70%;
+    margin-left: 150px;
+    background-color: rgb(44, 138, 44);
+}
